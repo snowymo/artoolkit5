@@ -64,7 +64,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>ARd.lib;ARICPd.lib;ARgsub_lited.lib;ARMultid.lib;ARvideod.lib;ARUtild.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib\win32-i386;$(ProjectDir)..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib\win32-i386;$(ProjectDir)..\..\lib;$(ProjectDir)..\..\lib\win64-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>
@@ -90,8 +90,8 @@
       </DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>AR.lib;ARICP.lib;ARgsub_lite.lib;ARMulti.lib;ARvideo.lib;ARUtil.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib\win32-i386;$(ProjectDir)..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ARUtil.lib;AR.lib;ARICP.lib;ARgsub_lite.lib;ARMulti.lib;ARvideo.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib\win64-x64;$(ProjectDir)..\..\lib\win32-i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

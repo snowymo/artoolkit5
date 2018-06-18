@@ -146,7 +146,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>AR.lib;ARICP.lib;ARgsub.lib;ARvideo.lib;ARUtil.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib;$(ProjectDir)..\..\lib\win32-i386</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib\win64-x64;$(ProjectDir)..\..\lib\win32-i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

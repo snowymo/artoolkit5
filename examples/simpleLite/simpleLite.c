@@ -67,7 +67,7 @@
 #else
 #  include <GL/glut.h>
 #endif
-#include <AR/config.h>
+//#include <AR/config.h>
 #include <AR/video.h>
 #include <AR/param.h>			// arParamDisp()
 #include <AR/ar.h>

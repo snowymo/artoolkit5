@@ -35,7 +35,7 @@
  *
  */
 
-#include <AR/config.h>
+//#include <AR/config.h>
 #if !AR_DISABLE_THRESH_MODE_AUTO_ADAPTIVE
 
 #undef AR_PIXEL_FORMAT_CCC

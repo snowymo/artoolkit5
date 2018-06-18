@@ -51,7 +51,7 @@
 #  define FALSE 0
 #endif
 
-#include <AR/config.h>
+//#include <AR/config.h>
 
 #ifdef __cplusplus
 extern "C" {

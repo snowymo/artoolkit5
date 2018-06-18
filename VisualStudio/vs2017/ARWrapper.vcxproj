@@ -178,7 +178,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>AR.lib;ARgsub_lite.lib;ARVideo.lib;ARMulti.lib;ARICP.lib;AR2.lib;KPM.lib;ARUtil.lib;zlib.lib;pthreadVC2.lib;opengl32.lib;glu32.lib;libjpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\lib\win64-x64;..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\lib\win64-x64;..\..\lib\win32-i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

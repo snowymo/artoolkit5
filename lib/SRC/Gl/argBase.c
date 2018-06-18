@@ -38,7 +38,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <AR/config.h>
+//#include <AR/config.h>
 #include "argPrivate.h"
 #define ARG_BASE_DO_NOT_INIT_GLUT
 
